@@ -1,0 +1,16 @@
+.Timer {
+    box-sizing: content-box;
+    margin: 0 auto;
+    width: 200px;
+    padding: 20px 30px;
+    border-radius: 26px;
+    background: radial-gradient(
+            ellipse at 7% 10%,
+            rgba(255, 255, 255, 0.3) 5%,
+            rgba(255, 255, 255, 0.2) 5%,
+            rgba(255, 255, 255, 0)
+        ),
+        linear-gradient(0deg, #168aad 86%, #34a0a4);
+    box-shadow: 0 0 6px 1px rgba(63, 63, 63, 0.7),
+        inset -6px -6px 6px 1px rgba(63, 63, 63, 0.3);
+}

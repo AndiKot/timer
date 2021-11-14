@@ -1,0 +1,32 @@
+.DisplayElement {
+    width: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.DisplayElement span {
+    display: block;
+    font-size: 0.6rem;
+    cursor: none;
+}
+
+.DisplayElement .numbers {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    padding: 5px;
+    border: 1px solid #61615f;
+    border-radius: 8px;
+    font-family: Sarpanch, sans-serif;
+    font-size: 1.1rem;
+    color: #232122;
+    background: linear-gradient(
+        -49deg,
+        #848482,
+        #848482,
+        50%,
+        #c2c2bf,
+        #c2c2bf
+    );
+    cursor: none;
+}

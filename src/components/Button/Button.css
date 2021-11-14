@@ -1,0 +1,30 @@
+.Button {
+    width: 60px;
+    padding: 3px 8px;
+    border: 1px solid rgba(64, 64, 64, 0.9);
+    outline: none;
+    font-size: 0.7rem;
+    text-align: center;
+    background: linear-gradient(0deg, #1aa4ce, 90%, #44ced3);
+    box-shadow: inset -3px -3px 5px rgba(64, 64, 64, 0.5);
+    transition: linear-gradient 0.8s ease;
+    cursor: pointer;
+}
+
+.Button:hover {
+    background: linear-gradient(0deg, #1aa4ce, 50%, #44ced3);
+}
+
+.Button:active {
+    box-shadow: inset 3px 3px 5px rgba(64, 64, 64, 0.5);
+}
+
+.Button:first-of-type {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Button:last-of-type {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
